@@ -47,16 +47,32 @@ body {
   p {
     text-align: center;
   }
-  .project-tile {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  #projects {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: auto;
   }
-
+  .project-tile {
+    font-size: 20px;
+    text-align: center;
+  }
+  .caption {
+    margin-top: 5px;
+  }
  .mainproject{
     background-color: rgb(80, 36, 202);
     top:900px; 
  }
+ #contact {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 992px) {
+    body {
+      background-color: lightblue;
+    }
+  }
 
 
-  }  
