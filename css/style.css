@@ -8,6 +8,20 @@ body {
     width: 300px;
     margin-top: 40px;
   }
+   header {
+		                  position: fixed;
+			top: 0px; 
+			right: 0px;
+                        left: 0px;                                  
+			padding: 10px;
+                        padding-left: 50px;
+			margin: 0px;
+			 font-family:Lobster;
+                         text-align: left; 
+                         color: white;
+                         font-size:25pt; 
+			background-color: #000000;}
+
   navbar {
     margin-left: 1200px;
     font-size: 20px;
