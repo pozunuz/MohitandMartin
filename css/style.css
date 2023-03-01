@@ -20,18 +20,26 @@ body {
                          text-align: left; 
                          color: white;
                          font-size:25pt; 
-			background-color: #000000;}
+			background-color: #a71313;}
 
   navbar {
     margin-left: 1200px;
     font-size: 20px;
   }
-  .nav{
+  .nav-elements{
     margin-left: 25px;
   }
+   
   h1 {
     text-align: center;
-    margin-top: 100px;
+    
+    margin-top: 300px;
+    top: 100px; 
+ font-family:Lobster;
+   text-align: center; 
+    color: white;
+   font-size:80pt; 
+
   }
   p {
     text-align: center;
@@ -40,4 +48,9 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  
+
+
   }
