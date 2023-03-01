@@ -1,7 +1,7 @@
 body {
     width: 100%;
     min-width: 300px;
-    background-color: pink;
+    background-color: rgb(34, 33, 33);
   }
   img {
     height: auto;
@@ -25,9 +25,12 @@ body {
   navbar {
     margin-left: 1200px;
     font-size: 20px;
+
   }
   .nav-elements{
     margin-left: 25px;
+    font-size: 20px;
+    color: white;
   }
    
   h1 {
@@ -38,7 +41,7 @@ body {
  font-family:Lobster;
    text-align: center; 
     color: white;
-   font-size:80pt; 
+   font-size:30pt; 
 
   }
   p {
@@ -50,7 +53,10 @@ body {
     flex-wrap: wrap;
   }
 
-  
+ .mainproject{
+    background-color: rgb(80, 36, 202);
+    top:900px; 
+ }
 
 
   }  
